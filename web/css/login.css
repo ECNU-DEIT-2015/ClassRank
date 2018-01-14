@@ -1,0 +1,130 @@
+body {
+    background: url(../images/2.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.prompt {
+    width: 400px;
+    height: 478px;
+    color: #faf5f5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.prompt .login_background{
+    display: block;
+    position: absolute;
+    width: 214%;
+    height: 183%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.prompt .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.6;
+}
+.prompt .login_title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #494949;
+}
+.prompt .input-group{
+    position: relative;
+    margin-top: 30px;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.prompt .top-group{
+    margin-top: 10px;
+}
+.prompt .input-group .input-group-addon,.prompt .input-group .form-control{
+    background-color: rgba(0,0,0,0.2);
+    color: #FFF;
+}
+.prompt .input-group .input-group-addon{
+    width: 50px !important;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+}
+.prompt .input-group .form-control{
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+}
+.prompt .checkbox{
+    position: relative;
+    margin-top: 30px !important;
+    width: 300px;
+    height: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.prompt .checkbox input{
+    opacity: 0;
+}
+.prompt .checkbox .checkbox-box{
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+.prompt .checkbox .checkbox-box:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 9px;
+    background: transparent;
+    top: 5px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.prompt .checkbox input[type=checkbox]:checked + .checkbox-box:after {
+    opacity: 1;
+}
+.prompt .checkbox .checkbox-text{
+    font-size: 20px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 2px  rgb(85, 82, 83);
+}
+.prompt .login-in-button{
+    position: relative;
+    margin-top: 30px !important;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.prompt .login-in-button button{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    line-height: 100%;
+}

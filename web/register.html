@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>录入成绩</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script type="application/dart" src="dart/register.dart"></script>
+    <script type="application/dart" src="../bin/main.dart"></script>
+
+</head>
+
+<body>
+    <button type="button" onclick="">退 出</button>
+    <br/>
+    <form name="form1" onsubmit="return doSubmit()">
+        <table id="table1" align="center">
+            <tr>
+                <th>姓 名</th>
+                <th>科 目</th>
+                <th>成 绩</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="name">
+                </td>
+                <td>
+                    <input type="text" id="course">
+                </td>
+                <td>
+                    <input type="text" id="score">
+                </td>
+                <td>
+                    <img src="images/delete.png" id="deleteBtn"/>
+                    <img src="images/insert.png" id="insertBtn"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <form name="form2">
+        <div class="panel">
+            <div class="inner_p">
+                <div class="text">上 一 个 录 入 的 成 绩</div>
+                <div class="pl">
+                    <table id="table2">
+                        <tr>
+                            <th>姓 名</th>
+                            <th>科 目</th>
+                            <th>成 绩</th>
+                        </tr>
+                        <tr>
+                            <th id="table-name"></th>
+                            <th id="table-course"></th>
+                            <th id="table-grade"></th>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="range" id="rangeLabel">排名</div>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+body {
+    background: url(../images/bg2.png) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.5em;
+    float: right;
+}
+
+form {
+    width: 70%;
+    opacity: 1;
+    margin: auto;
+}
+
+#table1 {
+    width: 80%;
+}
+
+#table1 th,
+#table1 td {
+    height: 45px;
+    width: 27%;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+#table1 td {
+    height: 40px;
+}
+
+input {
+    width: 140px;
+    height: 45px;
+    background-color: rgba(171, 171, 179, 0);
+    /*margin: auto;*/
+    border: 2px solid rgb(223, 223, 223);
+    border-style: groove;
+    font-size: 1.5em;
+    color: #5c5c5a;
+    font-family: "微软雅黑";
+}
+
+img {
+    width: 50px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.panel {
+    background-image: url(../images/panel.png);
+    background-color: #c7c7c3;
+    width: 712px;
+    height: 417px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.inner_p{
+    width: 90%;
+    height: 90%;
+    padding-top: 3%;
+    margin: auto;
+}
+
+.text {
+    font-size: 1.5em;
+    color: rgb(20, 20, 20);
+    text-shadow: 2px 2px 2px #5c5c5a;
+}
+
+.pl {
+    width: 50%;
+    float: left;
+}
+
+#table2 {
+    width: 90%;
+    float: left;
+    margin: 0, 5%, 0 ,5%;
+}
+
+#table2 th,
+#table2 td {
+    height: 45px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+#table2 td {
+    height: 30px;
+}
+
+.range {
+    font-size: 1.5em;
+    color: antiquewhite;
+    float: right;
+}
